@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="css/bootstrap.css">
+    <!--FUENTES-->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Courgette">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700">
+	</head>
+	<body class="bg-image">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+		<section> <!--FOTO CON TITULO DEL JUEGO-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+            <img class="posi-smash" src="fotos/smash.png" alt="smash-faces">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section><!--LO QUE ESTA ADENTRO DE LAS SECCIONES GRISES-->
+			<div class="container">
+				<div class="row bg-secc-horizontal">
+					<div class="col-md-6">
+					 <img class="tama-foto" id="foto" src="fotos/smash.jpg" alt="">
+           <form>
+              <div class="margin-input form-group">
+                <input id="input" type="text" class="form-control" placeholder="Escribe el nombre de la coder">
+                <br>
+                <button id="comprueba" type="button" class="posi-azul btn btn-primary">Comprobar</button>
+              </div>
+            </form>
+					</div>
+					<div class="col-md-6">
+            <p class="texto">Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ello su nombre. <br> Tienes <strong>5 oportunidades</strong> antes de <span class="rojo">perder 1 punto</span> y pasar a la siguiente coder.</p>
+            <h2 class="posi-h2-sede">¡Empieza eligiendo la sede!: </h2>
+            <br>
+            <!-- BUTTON -->
+            <select class="btn-pais form-control btn-default">
+              <option>Elige el país</option>
+              <option>México</option>
+              <option>Lima</option>
+            </select>
+            <button id="empieza" type="button" class="btn btn-amarillo btn-warning">¡EMPEZAR!</button>
+            <br>
+            <br>
+						<h1 class="posi-h1-puntos">Puntos: <span id="score">0</span> puntos</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--SCRIPTS-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

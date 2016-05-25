@@ -1,0 +1,58 @@
+/*FUENTE*/
+* {
+	font-family: 'Roboto';
+}
+h1, h2 {
+	font-family: 'Courgette', cursive !important;
+}
+/*FONDOS*/
+.bg-image{
+	background-image: url(../fotos/bg.jpg);
+}
+.bg-secc-horizontal {
+	background-color: #dadada;
+}
+/*POSICIONES*/
+.posi-h2-sede {
+	padding-top: 19%;
+	padding-left: 24%;
+}
+.posi-h1-puntos {
+	padding-left: 36%;
+}
+.texto {
+	padding-top: 2%;
+	padding-left: 16%;
+}
+.rojo {
+	color: #E60202;
+}
+/*BOTONES*/
+.btn-pais{
+	width: 24% !important;
+	margin-left: 32%;
+}
+.btn-amarillo {
+	margin-top: -10%;
+	margin-left: 65%;
+}
+.posi-azul {
+	margin-top: -2%;
+	margin-left: 39%;
+}
+/*INPUT*/
+.margin-input {
+	margin-left: 13%;
+}
+/*FOTO donde aparecen las coders*/
+.tama-foto {
+	width: 100%;
+	padding: 2%;
+	margin-left: 5%;
+}
+/*FOTO DE FONDO con titulo del juego*/
+.posi-smash {
+	margin-top: -40%;
+	margin-left: 153%;
+	position: absolute;
+}
